@@ -1,7 +1,7 @@
 
 #include "RationalClass.h"
-using namespace std;
 
+//Class methods
 double Rational::addition(Rational secondFraction) {
 	
 	double num_first = this->numerator / this->denominator;
@@ -32,11 +32,13 @@ double Rational::multiplication(Rational secondFraction) {
 	return num_first * num_secondFraction;
 }
 
+//Constructor
 Rational::Rational(double num, double den) {
 	this->numerator = num;
 	this->denominator = den;
 }
 
+//Setters and Getters
 void Rational::SetNumerator(double numerator)
 {
 	this->numerator = numerator;

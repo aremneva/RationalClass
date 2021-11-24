@@ -1,7 +1,4 @@
-//3. Создайте класс с именем Rational для выполнения действий с дробями.
 #include "RationalClass.h"
-
-using namespace std;
 
 int main() {
 	double numFirst;
