@@ -3,33 +3,23 @@
 
 //Class methods
 double Rational::addition(Rational secondFraction) {
-	
-	double num_first = this->numerator / this->denominator;
-	double num_secondFraction = secondFraction.numerator / secondFraction.denominator;
 
-	return num_first + num_secondFraction;
+	return this->DecimalForm()+ secondFraction.DecimalForm();
 }
 
 double Rational::substraction( Rational secondFraction) {
 
-	double num_first = this->numerator / this->denominator;
-	double num_secondFraction = secondFraction.numerator / secondFraction.denominator;
-
-	return num_first - num_secondFraction;
+	return this->DecimalForm() - secondFraction.DecimalForm();
 }
 
 double Rational::division( Rational secondFraction) {
-	double num_first = this->numerator / this->denominator;
-	double num_secondFraction = secondFraction.numerator / secondFraction.denominator;
 
-	return num_first / num_secondFraction;
+	return this->DecimalForm() / secondFraction.DecimalForm();
 }
 
 double Rational::multiplication(Rational secondFraction) {
-	double num_first = this->numerator / this->denominator;
-	double num_secondFraction = secondFraction.numerator / secondFraction.denominator;
 
-	return num_first * num_secondFraction;
+	return this->DecimalForm() * secondFraction.DecimalForm();
 }
 
 //Constructor
@@ -57,4 +47,9 @@ int Rational::GetNumenator()
 int Rational::GetDenominator()
 {
 	return this->denominator;
+}
+
+double Rational::DecimalForm()
+{
+	return this->numerator / this->denominator;
 }

@@ -6,6 +6,7 @@ class Rational {
 private:
 	double numerator;
 	double denominator;
+
 public:
 	Rational(double num, double den);
 
@@ -13,6 +14,8 @@ public:
 	void SetDenominator(double denominator);
 	int GetNumenator();
 	int GetDenominator();
+	
+	double DecimalForm();
 
 	double addition(Rational secondFraction);
 	double substraction(Rational secondFraction);
