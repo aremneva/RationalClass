@@ -1,0 +1,4 @@
+﻿  RationalClass.cpp
+D:\repos\LR1_V3\LR1_V3\RationalClass.cpp(44,9): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+D:\repos\LR1_V3\LR1_V3\RationalClass.cpp(49,9): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+  LR1_V3.vcxproj -> D:\repos\LR1_V3\Debug\LR1_V3.exe

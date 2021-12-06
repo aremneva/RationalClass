@@ -15,6 +15,8 @@ public:
 	int GetNumenator();
 	int GetDenominator();
 	
+	
+
 	double DecimalForm();
 
 	double addition(Rational secondFraction);
